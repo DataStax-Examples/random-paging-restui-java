@@ -5,9 +5,9 @@ This example application shows how to paginate results returned by Cassandra bid
 Contributors: [Tomasz Lelek](https://github.com/tomekl007), [Carlos Diaz](https://github.com/crdiaz324)
 
 ## Objectives
-* To demonstrate how to paginate bidirectionally.  You can jump to a random page number by modifying the url.
+* To demonstrate how to paginate bidirectionally.  
+* Jump to a random page number by modifying the url.
    
-
 
 ## Project Layout
 * [RandomPagingRestUi.java](/src/main/java/com/datastax/examples/RandomPagingRestUi.java) - The main application which will create and populate a schema and start the rest service.
