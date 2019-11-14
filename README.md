@@ -1,4 +1,4 @@
-# Randomly paginating results over a stateless REST service.
+# Random Pagination in a Stateless REST service
 This example application shows how to paginate results returned by Cassandra bidirectionally over a REST UI.  
 
 
