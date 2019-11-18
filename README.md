@@ -16,7 +16,7 @@ Contributors: [Tomasz Lelek](https://github.com/tomekl007), [Carlos Diaz](https:
 ## How this Works
 This application creates a table called `random_paging_rest_ui` in the `examples` keyspace. It then populates the table with 3 users and 49 videos for each user. It then starts a REST service for that data, accessible via the following endpoint, the port can be modified by changing `HTTP_PORT` in [RandomPagingRestUi.java](/src/main/java/com/datastax/examples/RandomPagingRestUi.java).
  
-Cassandra does not support offset queries ( (CASSANDRA-6511)[https://issues.apache.org/jira/browse/CASSANDRA-6511] ), so we emulate it by restarting from the beginning each time, and iterating through the results until we reach the requested page. 
+Cassandra does not support offset queries (CASSANDRA-6511)[https://issues.apache.org/jira/browse/CASSANDRA-6511], so we emulate it by restarting from the beginning each time, and iterating through the results until we reach the requested page. 
 
 This is fundamentally inefficient (O(n) in the number of rows skipped), but the tradeoff might be
 acceptable for some use cases; for example, if you show 10 results per page and you think users
