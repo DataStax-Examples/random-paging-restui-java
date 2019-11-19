@@ -2,7 +2,7 @@
 Working on a backend REST service that handles access to Cassandra while passing results back to a web front-end for display? You've come to the right place if you have any paging functionality in that web application. This example shows how to jump to a given page of the results returned by Cassandra in a web application via a backend REST service.
 
 
-Contributors: [Tomasz Lelek](https://github.com/tomekl007), [Carlos Diaz](https://github.com/crdiaz324)
+Contributor(s): [Tomasz Lelek](https://github.com/tomekl007), [Carlos Diaz](https://github.com/crdiaz324) - derived from [here](https://github.com/datastax/java-driver/blob/4.x/examples/src/main/java/com/datastax/oss/driver/examples/paging/RandomPagingRestUi.java)
 
 ## Objectives
 * Demonstrate how to use the paging state returned by Cassandra and encode it in HTTP URLs for a REST application.  
